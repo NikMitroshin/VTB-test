@@ -38,7 +38,7 @@ const QuotesScreen: React.FC<StackNavProp<TabRouteNames.QUOTES>> = () => {
       isNeedTimer && !isRefreshing
         ? setInterval(() => {
             getQuotes()
-          }, 1000 * 50000)
+          }, 1000 * 5)
         : null
 
     if (isRefreshing) {

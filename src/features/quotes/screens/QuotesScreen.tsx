@@ -3,9 +3,12 @@ import React from 'react'
 import styled from '@emotion/native'
 import { Text } from 'react-native'
 
+import useAppSelector from 'hooks/useAppSelector'
+
 const Wrapper = styled.View``
 const QuotesScreen: React.FC = () => {
-  console.log(1)
+  const { quotesList } = useAppSelector((state) => state.quotes)
+  console.log(quotesList)
 
   return (
     <Wrapper>

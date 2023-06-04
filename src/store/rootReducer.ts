@@ -2,11 +2,13 @@ import { Reducer } from '@reduxjs/toolkit'
 import { persistCombineReducers } from 'redux-persist'
 import { PersistConfig } from 'redux-persist/es/types'
 
+import quotesSlice, { QuotesState } from 'features/quotes/store'
 import testSlice, { TestState } from 'store/slices/testSlice'
 import mmkvStorage from 'store/storages/mmkvStorage'
 
 interface Store {
   test: TestState
+  quotes: QuotesState
 }
 
 const persistConfig: PersistConfig<Store> = {
@@ -19,6 +21,7 @@ const persistConfig: PersistConfig<Store> = {
 
 const persistedCombinedReducer = persistCombineReducers(persistConfig, {
   test: testSlice,
+  quotes: quotesSlice,
   // TODO add slices
 })
 

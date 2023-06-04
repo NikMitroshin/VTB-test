@@ -1,3 +1,13 @@
+import config from 'react-native-config'
+
+interface ApiConfig {
+  apiUrl: string
+}
+
 export class EnvConfigService {
-  // TODO add env
+  public static get quotesConfig(): ApiConfig {
+    return {
+      apiUrl: String(config.QUOTES_API_URL).trim(),
+    }
+  }
 }

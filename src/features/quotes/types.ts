@@ -1,13 +1,4 @@
-export interface QuotesItem {
-  id: number
-  last: string
-  lowestAsk: string
-  highestBid: string
-  percentChange: string
-  baseVolume: string
-  quoteVolume: string
-  isFrozen: string
-  postOnly: string
-  high24hr: string
-  low24hr: string
-}
+import { QuotesResponse, QuotesResponseItem } from 'clients/quotesClient/types'
+
+export type Quotes = QuotesResponse
+export type QuotesItem = QuotesResponseItem

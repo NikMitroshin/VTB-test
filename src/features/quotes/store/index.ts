@@ -1,14 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-import { QuotesItem } from 'features/quotes/types'
+import { Quotes } from 'features/quotes/types'
 import patchStateReducer from 'helpers/patchStateReducer'
 
 export interface QuotesState {
-  quotesList: QuotesItem[]
+  quotes: Quotes
 }
 
 const initialState: QuotesState = {
-  quotesList: [],
+  quotes: {},
 }
 
 const quotesSlice = createSlice({

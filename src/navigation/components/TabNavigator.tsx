@@ -16,7 +16,7 @@ const TabNavigator = ({ route }: StackNavProp<StackRouteNames.ROOT_TAB>): JSX.El
 
   return (
     <Tab.Navigator
-      initialRouteName={TabRouteNames.MAIN_SCREEN}
+      initialRouteName={TabRouteNames.ABOUT_APP}
       screenOptions={({ route: TabRoutes }): BottomTabNavigationOptions => ({
         headerTitle: getTitleByRoute(route),
         tabBarIcon: ({ focused }) => getTabBarIcon({ focused, name: TabRoutes.name }),

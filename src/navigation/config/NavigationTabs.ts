@@ -1,6 +1,7 @@
 import { ReactElement } from 'react'
 
-import MainScreen from 'screens/MainScreen/MainScreen'
+import QuotesScreen from 'features/quotes/screens/QuotesScreen'
+import AboutAppScreen from 'screens/AboutAppScreen/AboutAppScreen'
 import { TabRouteNames } from 'types'
 
 interface Tab {
@@ -12,8 +13,13 @@ interface Tab {
 
 const NAVIGATION_TABS: Tab[] = [
   {
-    name: TabRouteNames.MAIN_SCREEN,
-    component: MainScreen,
+    name: TabRouteNames.ABOUT_APP,
+    component: AboutAppScreen,
+    isUnmountOnBlur: false,
+  },
+  {
+    name: TabRouteNames.QUOTES,
+    component: QuotesScreen,
     isUnmountOnBlur: false,
   },
   // TODO add tabs

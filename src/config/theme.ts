@@ -8,10 +8,12 @@ const theme: Theme = {
       light: '#fff',
     },
     background: {
-      main: '#002c5f',
+      main: 'rgb(10, 40, 150)',
+      secondary: 'rgb(0, 126, 233)',
     },
     button: {
-      main: '#00aad2',
+      main: 'rgb(0, 132, 255)',
+      disable: 'rgb(96, 105, 129)',
     },
   },
   isSmall: Dimensions.get('window').height <= 667,

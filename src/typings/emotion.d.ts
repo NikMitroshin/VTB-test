@@ -9,9 +9,11 @@ declare module '@emotion/react' {
       }
       background: {
         main: string
+        secondary: string
       }
       button: {
         main: string
+        disable: string
       }
     }
     isSmall: boolean

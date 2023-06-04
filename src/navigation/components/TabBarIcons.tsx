@@ -10,7 +10,9 @@ interface Params {
 
 export const getTabBarIcon = ({ focused, name }: Params): JSX.Element | undefined => {
   switch (name) {
-    case TabRouteNames.MAIN_SCREEN:
+    case TabRouteNames.ABOUT_APP:
+      return <HistoryIcon focused={focused} />
+    case TabRouteNames.QUOTES:
       return <HistoryIcon focused={focused} />
     default:
       return undefined

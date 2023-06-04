@@ -5,7 +5,7 @@ import { TouchableOpacity } from 'react-native'
 
 import { DefaultText } from 'components/styled/Text'
 
-const Wrapper = styled(TouchableOpacity)<{ bgColor?: string }>`
+const Wrapper = styled(TouchableOpacity)<{ bgColor?: string; margin?: string }>`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +14,7 @@ const Wrapper = styled(TouchableOpacity)<{ bgColor?: string }>`
   height: 50px;
   padding: 5px 10px;
   background-color: ${({ bgColor, theme }): string => bgColor || theme.colors.button.main};
+  margin: ${({ margin }): string => margin || '0'};
 `
 
 const Label = styled(DefaultText)<{ labelColor?: string }>`
@@ -26,10 +27,11 @@ interface Props {
   onPress: () => void
   bgColor?: string
   labelColor?: string
+  margin?: string
 }
 
-const Button: React.FC<Props> = ({ label, onPress, labelColor, bgColor }) => (
-  <Wrapper onPress={onPress} bgColor={bgColor}>
+const Button: React.FC<Props> = ({ label, onPress, labelColor, bgColor, margin }) => (
+  <Wrapper onPress={onPress} bgColor={bgColor} margin={margin}>
     <Label labelColor={labelColor}>{label}</Label>
   </Wrapper>
 )

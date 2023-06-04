@@ -9,7 +9,7 @@ interface Props {
 
 const WalletsIcon: React.FC<Props> = ({ focused }) => {
   const theme = useTheme()
-  const stroke = focused ? theme.colors.button.main : theme.colors.text.main
+  const stroke = focused ? theme.colors.button.main : theme.colors.button.disable
 
   return (
     <Svg width='24' height='25' fill='none'>

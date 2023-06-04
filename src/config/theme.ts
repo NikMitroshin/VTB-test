@@ -10,6 +10,7 @@ const theme: Theme = {
     background: {
       main: 'rgb(10, 40, 150)',
       secondary: 'rgb(0, 126, 233)',
+      light: '#f1f1f1',
     },
     button: {
       main: 'rgb(0, 132, 255)',

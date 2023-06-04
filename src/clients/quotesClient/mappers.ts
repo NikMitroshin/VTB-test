@@ -1,14 +1,10 @@
 import { QuotesResponse } from 'clients/quotesClient/types'
-import { Quotes, QuotesItem } from 'features/quotes/types'
+import { Quotes } from 'features/quotes/types'
 
-// check valid response (example)
-const isValidPair = (item: QuotesItem) => item.id && item.last
+const getFrom = (key: string): string => key.slice(0, key.indexOf('_'))
+const getTo = (key: string): string => key.slice(key.indexOf('_') + 1)
 
 export const mapQuotesData = (data: QuotesResponse): Quotes =>
-  Object.entries(data).reduce((acc, [key, pair]) => {
-    if (isValidPair(pair)) {
-      return { ...acc, [key]: pair }
-    }
-
-    return acc
-  }, {})
+  Object.entries(data)
+    .map(([key, pair]) => ({ ...pair, from: getFrom(key), to: getTo(key) }))
+    .filter((item) => item.from && item.to)

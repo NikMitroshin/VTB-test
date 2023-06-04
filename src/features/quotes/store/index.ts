@@ -8,7 +8,7 @@ export interface QuotesState {
 }
 
 const initialState: QuotesState = {
-  quotes: {},
+  quotes: [],
 }
 
 const quotesSlice = createSlice({

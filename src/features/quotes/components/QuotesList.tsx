@@ -1,11 +1,11 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 
 import styled from '@emotion/native'
 import { FlatList, RefreshControl } from 'react-native'
 
 import QuotesItemComponent from 'features/quotes/components/QuotesItemComponent'
+import quotesSlice from 'features/quotes/mobxStore'
 import { QuotesItem } from 'features/quotes/types'
-import useAppSelector from 'hooks/useAppSelector'
 
 const Wrapper = styled.View`
   padding: 20px 16px;
@@ -22,17 +22,13 @@ interface Props {
 }
 
 const QuotesList: React.FC<Props> = ({ onRefresh, isRefreshing }) => {
-  const { quotes, errorMessage } = useAppSelector((state) => state.quotes)
-
-  const quotesList = useMemo(() => Object.values(quotes), [quotes])
-
   const renderItem = ({ item }: { item: QuotesItem }): JSX.Element => <QuotesItemComponent key={item.id} item={item} />
 
   return (
     <Wrapper>
-      {errorMessage && <ErrorBox>{errorMessage}</ErrorBox>}
+      {quotesSlice.errorMessage && <ErrorBox>{quotesSlice.errorMessage}</ErrorBox>}
       <FlatList
-        data={quotesList}
+        data={quotesSlice.quotes}
         renderItem={renderItem}
         refreshControl={<RefreshControl refreshing={isRefreshing} onRefresh={onRefresh} />}
         showsVerticalScrollIndicator={false}

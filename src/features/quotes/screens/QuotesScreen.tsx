@@ -2,24 +2,23 @@ import React, { useCallback, useEffect, useState } from 'react'
 
 import styled from '@emotion/native'
 import { useFocusEffect } from '@react-navigation/native'
+import { observer } from 'mobx-react-lite'
+import { Text } from 'react-native'
 
 import QuotesList from 'features/quotes/components/QuotesList'
-import { fetchQuotes } from 'features/quotes/store/actions/fetchEvents'
-import useAppDispatch from 'hooks/useAppDispatch'
+import quotesSlice from 'features/quotes/mobxStore'
 import { StackNavProp, TabRouteNames } from 'types'
 
 const Wrapper = styled.View`
   flex: 1;
 `
 
-const QuotesScreen: React.FC<StackNavProp<TabRouteNames.QUOTES>> = () => {
+const QuotesScreen: React.FC<StackNavProp<TabRouteNames.QUOTES>> = observer(() => {
   const [isRefreshing, setIsRefreshing] = useState(false)
   const [isNeedTimer, setIsNeedTimer] = useState(false)
 
-  const dispatch = useAppDispatch()
-
   const getQuotes = useCallback(() => {
-    void dispatch(fetchQuotes())
+    void quotesSlice.fetchQuotes()
     setIsNeedTimer(true)
   }, [])
 
@@ -57,9 +56,10 @@ const QuotesScreen: React.FC<StackNavProp<TabRouteNames.QUOTES>> = () => {
 
   return (
     <Wrapper>
+      <Text>{quotesSlice.errorMessage}</Text>
       <QuotesList onRefresh={onRefresh} isRefreshing={isRefreshing} />
     </Wrapper>
   )
-}
+})
 
 export default QuotesScreen

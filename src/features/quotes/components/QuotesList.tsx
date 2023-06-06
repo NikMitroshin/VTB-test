@@ -11,6 +11,10 @@ const Wrapper = styled.View`
   padding: 20px 16px;
   background-color: ${({ theme }): string => theme.colors.background.light};
 `
+const ErrorBox = styled.Text`
+  color: ${({ theme }): string => theme.colors.text.error};
+  margin: 5px 0;
+`
 
 interface Props {
   onRefresh: () => void
@@ -18,7 +22,7 @@ interface Props {
 }
 
 const QuotesList: React.FC<Props> = ({ onRefresh, isRefreshing }) => {
-  const { quotes } = useAppSelector((state) => state.quotes)
+  const { quotes, errorMessage } = useAppSelector((state) => state.quotes)
 
   const quotesList = useMemo(() => Object.values(quotes), [quotes])
 
@@ -26,6 +30,7 @@ const QuotesList: React.FC<Props> = ({ onRefresh, isRefreshing }) => {
 
   return (
     <Wrapper>
+      {errorMessage && <ErrorBox>{errorMessage}</ErrorBox>}
       <FlatList
         data={quotesList}
         renderItem={renderItem}

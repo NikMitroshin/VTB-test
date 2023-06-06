@@ -5,10 +5,14 @@ import patchStateReducer from 'helpers/patchStateReducer'
 
 export interface QuotesState {
   quotes: Quotes
+
+  errorMessage: string
 }
 
 const initialState: QuotesState = {
   quotes: [],
+
+  errorMessage: '',
 }
 
 const quotesSlice = createSlice({

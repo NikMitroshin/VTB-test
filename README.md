@@ -1,4 +1,4 @@
-# testappname
+# vtbtest
 
 Тестовое задание: создать мобильное приложение на платформах iOS, android используется framework React Native
 

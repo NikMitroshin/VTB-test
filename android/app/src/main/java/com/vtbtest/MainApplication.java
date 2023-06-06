@@ -1,4 +1,4 @@
-package com.testappname;
+package com.vtbtest;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

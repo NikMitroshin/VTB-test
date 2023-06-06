@@ -7,7 +7,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  self.moduleName = @"testappname";
+  self.moduleName = @"vtbtest";
   self.initialProps = @{};
   [super application:application didFinishLaunchingWithOptions:launchOptions];
   [RNSplashScreen show];

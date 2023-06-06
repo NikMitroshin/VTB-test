@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* testappnameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* testappnameTests.m */; };
+		00E356F31AD99517003FC87E /* vtbtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* vtbtestTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4D9A38C165BE112CAB0491FC /* libPods-testappname-testappnameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BB8B8307EA66EDF956157D /* libPods-testappname-testappnameTests.a */; };
+		4D9A38C165BE112CAB0491FC /* libPods-vtbtest-vtbtestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BB8B8307EA66EDF956157D /* libPods-vtbtest-vtbtestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C0918FC77A60FCAB5D7A3D61 /* libPods-testappname.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6E1EFA560DC8C9E7BC0AD5 /* libPods-testappname.a */; };
+		C0918FC77A60FCAB5D7A3D61 /* libPods-vtbtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6E1EFA560DC8C9E7BC0AD5 /* libPods-vtbtest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = testappname;
+			remoteInfo = vtbtest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* testappnameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testappnameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* vtbtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vtbtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* testappnameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testappnameTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* testappname.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testappname.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = testappname/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = testappname/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = testappname/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = testappname/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = testappname/main.m; sourceTree = "<group>"; };
-		16F39F5E34733BEDABDB97CE /* Pods-testappname.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testappname.debug.xcconfig"; path = "Target Support Files/Pods-testappname/Pods-testappname.debug.xcconfig"; sourceTree = "<group>"; };
-		20BB8B8307EA66EDF956157D /* libPods-testappname-testappnameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testappname-testappnameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30F1742993734300FB57E815 /* Pods-testappname.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testappname.release.xcconfig"; path = "Target Support Files/Pods-testappname/Pods-testappname.release.xcconfig"; sourceTree = "<group>"; };
-		64286CB55FAB8E5E8F4973DD /* Pods-testappname-testappnameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testappname-testappnameTests.debug.xcconfig"; path = "Target Support Files/Pods-testappname-testappnameTests/Pods-testappname-testappnameTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = testappname/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8C6E1EFA560DC8C9E7BC0AD5 /* libPods-testappname.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testappname.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* vtbtestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vtbtestTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* vtbtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vtbtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = vtbtest/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = vtbtest/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = vtbtest/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = vtbtest/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = vtbtest/main.m; sourceTree = "<group>"; };
+		16F39F5E34733BEDABDB97CE /* Pods-vtbtest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vtbtest.debug.xcconfig"; path = "Target Support Files/Pods-vtbtest/Pods-vtbtest.debug.xcconfig"; sourceTree = "<group>"; };
+		20BB8B8307EA66EDF956157D /* libPods-vtbtest-vtbtestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vtbtest-vtbtestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F1742993734300FB57E815 /* Pods-vtbtest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vtbtest.release.xcconfig"; path = "Target Support Files/Pods-vtbtest/Pods-vtbtest.release.xcconfig"; sourceTree = "<group>"; };
+		64286CB55FAB8E5E8F4973DD /* Pods-vtbtest-vtbtestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vtbtest-vtbtestTests.debug.xcconfig"; path = "Target Support Files/Pods-vtbtest-vtbtestTests/Pods-vtbtest-vtbtestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = vtbtest/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C6E1EFA560DC8C9E7BC0AD5 /* libPods-vtbtest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vtbtest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F99D35E08100CC77728E982D /* Pods-testappname-testappnameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testappname-testappnameTests.release.xcconfig"; path = "Target Support Files/Pods-testappname-testappnameTests/Pods-testappname-testappnameTests.release.xcconfig"; sourceTree = "<group>"; };
+		F99D35E08100CC77728E982D /* Pods-vtbtest-vtbtestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vtbtest-vtbtestTests.release.xcconfig"; path = "Target Support Files/Pods-vtbtest-vtbtestTests/Pods-vtbtest-vtbtestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9A38C165BE112CAB0491FC /* libPods-testappname-testappnameTests.a in Frameworks */,
+				4D9A38C165BE112CAB0491FC /* libPods-vtbtest-vtbtestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0918FC77A60FCAB5D7A3D61 /* libPods-testappname.a in Frameworks */,
+				C0918FC77A60FCAB5D7A3D61 /* libPods-vtbtest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* testappnameTests */ = {
+		00E356EF1AD99517003FC87E /* vtbtestTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* testappnameTests.m */,
+				00E356F21AD99517003FC87E /* vtbtestTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = testappnameTests;
+			path = vtbtestTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* testappname */ = {
+		13B07FAE1A68108700A75B9A /* vtbtest */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = testappname;
+			name = vtbtest;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				8C6E1EFA560DC8C9E7BC0AD5 /* libPods-testappname.a */,
-				20BB8B8307EA66EDF956157D /* libPods-testappname-testappnameTests.a */,
+				8C6E1EFA560DC8C9E7BC0AD5 /* libPods-vtbtest.a */,
+				20BB8B8307EA66EDF956157D /* libPods-vtbtest-vtbtestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* testappname */,
+				13B07FAE1A68108700A75B9A /* vtbtest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* testappnameTests */,
+				00E356EF1AD99517003FC87E /* vtbtestTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* testappname.app */,
-				00E356EE1AD99517003FC87E /* testappnameTests.xctest */,
+				13B07F961A680F5B00A75B9A /* vtbtest.app */,
+				00E356EE1AD99517003FC87E /* vtbtestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				16F39F5E34733BEDABDB97CE /* Pods-testappname.debug.xcconfig */,
-				30F1742993734300FB57E815 /* Pods-testappname.release.xcconfig */,
-				64286CB55FAB8E5E8F4973DD /* Pods-testappname-testappnameTests.debug.xcconfig */,
-				F99D35E08100CC77728E982D /* Pods-testappname-testappnameTests.release.xcconfig */,
+				16F39F5E34733BEDABDB97CE /* Pods-vtbtest.debug.xcconfig */,
+				30F1742993734300FB57E815 /* Pods-vtbtest.release.xcconfig */,
+				64286CB55FAB8E5E8F4973DD /* Pods-vtbtest-vtbtestTests.debug.xcconfig */,
+				F99D35E08100CC77728E982D /* Pods-vtbtest-vtbtestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* testappnameTests */ = {
+		00E356ED1AD99517003FC87E /* vtbtestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "testappnameTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vtbtestTests" */;
 			buildPhases = (
 				FCFDC8A2C4392C202884673D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = testappnameTests;
-			productName = testappnameTests;
-			productReference = 00E356EE1AD99517003FC87E /* testappnameTests.xctest */;
+			name = vtbtestTests;
+			productName = vtbtestTests;
+			productReference = 00E356EE1AD99517003FC87E /* vtbtestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* testappname */ = {
+		13B07F861A680F5B00A75B9A /* vtbtest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "testappname" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vtbtest" */;
 			buildPhases = (
 				AB60658E5F2D0578A1480EC5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -189,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = testappname;
-			productName = testappname;
-			productReference = 13B07F961A680F5B00A75B9A /* testappname.app */;
+			name = vtbtest;
+			productName = vtbtest;
+			productReference = 13B07F961A680F5B00A75B9A /* vtbtest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "testappname" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vtbtest" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* testappname */,
-				00E356ED1AD99517003FC87E /* testappnameTests */,
+				13B07F861A680F5B00A75B9A /* vtbtest */,
+				00E356ED1AD99517003FC87E /* vtbtestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,15 +272,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testappname-testappnameTests/Pods-testappname-testappnameTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vtbtest-vtbtestTests/Pods-vtbtest-vtbtestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testappname-testappnameTests/Pods-testappname-testappnameTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vtbtest-vtbtestTests/Pods-vtbtest-vtbtestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testappname-testappnameTests/Pods-testappname-testappnameTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vtbtest-vtbtestTests/Pods-vtbtest-vtbtestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3B5A6AFF01037ABFCBBE5D5B /* [CP] Copy Pods Resources */ = {
@@ -289,15 +289,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testappname-testappnameTests/Pods-testappname-testappnameTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vtbtest-vtbtestTests/Pods-vtbtest-vtbtestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testappname-testappnameTests/Pods-testappname-testappnameTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vtbtest-vtbtestTests/Pods-vtbtest-vtbtestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testappname-testappnameTests/Pods-testappname-testappnameTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vtbtest-vtbtestTests/Pods-vtbtest-vtbtestTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		85D686A7EFA72CBAFB8F00BA /* [CP] Copy Pods Resources */ = {
@@ -306,15 +306,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testappname/Pods-testappname-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vtbtest/Pods-vtbtest-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testappname/Pods-testappname-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vtbtest/Pods-vtbtest-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testappname/Pods-testappname-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vtbtest/Pods-vtbtest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AB60658E5F2D0578A1480EC5 /* [CP] Check Pods Manifest.lock */ = {
@@ -332,7 +332,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testappname-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-vtbtest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -345,15 +345,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testappname/Pods-testappname-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vtbtest/Pods-vtbtest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testappname/Pods-testappname-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vtbtest/Pods-vtbtest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testappname/Pods-testappname-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vtbtest/Pods-vtbtest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FCFDC8A2C4392C202884673D /* [CP] Check Pods Manifest.lock */ = {
@@ -371,7 +371,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testappname-testappnameTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-vtbtest-vtbtestTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* testappnameTests.m in Sources */,
+				00E356F31AD99517003FC87E /* vtbtestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +422,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* testappname */;
+			target = 13B07F861A680F5B00A75B9A /* vtbtest */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,14 +430,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64286CB55FAB8E5E8F4973DD /* Pods-testappname-testappnameTests.debug.xcconfig */;
+			baseConfigurationReference = 64286CB55FAB8E5E8F4973DD /* Pods-vtbtest-vtbtestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = testappnameTests/Info.plist;
+				INFOPLIST_FILE = vtbtestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,17 +451,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testappname.app/testappname";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vtbtest.app/vtbtest";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F99D35E08100CC77728E982D /* Pods-testappname-testappnameTests.release.xcconfig */;
+			baseConfigurationReference = F99D35E08100CC77728E982D /* Pods-vtbtest-vtbtestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = testappnameTests/Info.plist;
+				INFOPLIST_FILE = vtbtestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,19 +475,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testappname.app/testappname";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vtbtest.app/vtbtest";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16F39F5E34733BEDABDB97CE /* Pods-testappname.debug.xcconfig */;
+			baseConfigurationReference = 16F39F5E34733BEDABDB97CE /* Pods-vtbtest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = testappname/Info.plist;
+				INFOPLIST_FILE = vtbtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +499,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = testappname;
+				PRODUCT_NAME = vtbtest;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -508,12 +508,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30F1742993734300FB57E815 /* Pods-testappname.release.xcconfig */;
+			baseConfigurationReference = 30F1742993734300FB57E815 /* Pods-vtbtest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = testappname/Info.plist;
+				INFOPLIST_FILE = vtbtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,7 +525,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = testappname;
+				PRODUCT_NAME = vtbtest;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -671,7 +671,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "testappnameTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vtbtestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -680,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "testappname" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vtbtest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -689,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "testappname" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vtbtest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

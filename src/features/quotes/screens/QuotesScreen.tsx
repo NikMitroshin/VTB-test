@@ -3,7 +3,6 @@ import React, { useCallback, useEffect, useState } from 'react'
 import styled from '@emotion/native'
 import { useFocusEffect } from '@react-navigation/native'
 import { observer } from 'mobx-react-lite'
-import { Text } from 'react-native'
 
 import QuotesList from 'features/quotes/components/QuotesList'
 import quotesSlice from 'features/quotes/mobxStore'
@@ -56,7 +55,6 @@ const QuotesScreen: React.FC<StackNavProp<TabRouteNames.QUOTES>> = observer(() =
 
   return (
     <Wrapper>
-      <Text>{quotesSlice.errorMessage}</Text>
       <QuotesList onRefresh={onRefresh} isRefreshing={isRefreshing} />
     </Wrapper>
   )
